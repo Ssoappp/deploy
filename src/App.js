@@ -7,7 +7,6 @@ import Movies from "./pages/Movies";
 import NotFound from "./pages/NotFound";
 import TV from "./pages/TV";
 import MovieDetail from "./pages/MovieDetail";
-import Login from "./pages/Login";
 
 
 function App() {
@@ -24,7 +23,6 @@ function App() {
         <Route path="/*" element={<NotFound/>} /> 
         <Route path="/TV" element={<TV/>} />
         <Route path="/movie/:title" element={<MovieDetail/>} />
-        <Route path="/Login" element={<Login/>}/>
         </Routes>
     </BrowserRouter>
    </div>
