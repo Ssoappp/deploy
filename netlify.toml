@@ -1,0 +1,3 @@
+[build]
+publish = "pubilc/"
+command = "CI= npm run build"
